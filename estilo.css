@@ -1,0 +1,137 @@
+body
+/*001*/
+
+{
+    line-height: 1.8;
+    color: #000000;
+    background-color: rgb(240, 214, 214);
+    font-family: "Times New Roman", Times, serif;
+}
+
+h1
+/*001*/
+
+{
+    background-color: #420101;
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 70px;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul
+/*002*/
+
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #420101;
+}
+
+nav li
+/*002*/
+
+{
+    float: left;
+}
+
+li a
+/*002*/
+
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-style: normal;
+}
+
+li a:hover
+/*012*/
+
+{
+    background-color: rgb(56, 21, 122);
+}
+
+h2
+/*001*/
+
+{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 0;
+    text-align: left;
+}
+
+p
+/*001*/
+
+{
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 110%
+}
+
+table
+/*001*/
+
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td
+/*001*/
+
+{
+    text-align: center;
+    padding: 8px;
+    border: 1px solid black;
+}
+
+tr {
+    background-color: #e4e0e0;
+}
+
+tr:nth-child(even)
+/*012*/
+
+{
+    background-color: #f2f2f2;
+}
+
+img {
+    border-radius: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:link
+/*011*/
+
+{
+    text-decoration: none;
+}
+
+a:visited
+/*011*/
+
+{
+    text-decoration: none;
+}
+
+a:hover
+/*011*/
+
+{
+    text-decoration: underline;
+    color: #858383;
+}
